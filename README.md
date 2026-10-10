@@ -27,7 +27,7 @@ Before proceeding, ensure the following are installed:
 1. **Clone or Download the Repository**:
 
    ```
-   git clone <your-repo-url>  # Or download the ZIP
+   git clone https://github.com/stephlam-um/ACG-Ideal-Matchmaker
    cd acg-ideal-matchmaker
    ```
 

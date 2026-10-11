@@ -4,6 +4,11 @@ Describe the personality and interactions you like, then discover matching anime
 
 ## Hosted version on Vercel
 
+**Live application:** [acg-ideal-matchmaker.vercel.app](https://acg-ideal-matchmaker.vercel.app/)
+
+**Vercel project:** [Deployment dashboard](https://vercel.com/stephlam-ums-projects/acg-ideal-matchmaker)
+
+
 The `web/` application is the deployment entrypoint: a responsive static frontend plus Node.js Vercel Functions. It uses OpenAI Responses for trait extraction/report generation and **text-embedding-3-small (1024 dimensions)** for matching, with a separately generated 50-character index. No local Ollama is required online. The original Streamlit/BGE-M3 application remains available for local use.
 
 Set the Vercel project Root Directory to `web`, Framework Preset to Other, and leave Build Command and Output Directory unset. Set `OPENAI_API_KEY` as a sensitive server-side environment variable for the required environments; `OPENAI_MODEL` is optional (default `gpt-4.1-mini`). The key is never included in browser assets. Vercel account authentication protection remains enabled; visitors may need to sign in with project access. Each match uses your OpenAI API quota.

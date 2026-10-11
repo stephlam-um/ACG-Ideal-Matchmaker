@@ -8,6 +8,8 @@ test('invalid request never needs an API key',async()=>{
 });
 test('catalog reveals no secrets or vectors',async()=>{
  const response=catalog.fetch();const data=await response.json();
- assert.equal(data.count,50);assert.equal(data.vectors,undefined);assert.equal(data.OPENAI_API_KEY,undefined);
+ assert.equal(data.count,80);assert.equal(data.characters.length,80);assert.equal(data.vectors,undefined);assert.equal(data.OPENAI_API_KEY,undefined);
+ assert.equal(new Set(data.characters.map(c=>c.id)).size,80);
+ assert.ok(data.characters.slice(50).every(c=>c.source_url?.startsWith('https://') && c.series && c.moe_traits.length>=3));
 });
 test('method restriction',async()=>assert.equal((await match.fetch(new Request('http://localhost/api/match'))).status,405));

@@ -9,7 +9,7 @@ Describe the personality and interactions you like, then discover matching anime
 **Vercel project:** [Deployment dashboard](https://vercel.com/stephlam-ums-projects/acg-ideal-matchmaker)
 
 
-The `web/` application is the deployment entrypoint: a responsive static frontend plus Node.js Vercel Functions. It uses OpenAI Responses for trait extraction/report generation and **text-embedding-3-small (1024 dimensions)** for matching, with a separately generated 50-character index. No local Ollama is required online. The original Streamlit/BGE-M3 application remains available for local use.
+The `web/` application is the deployment entrypoint: a responsive static frontend plus Node.js Vercel Functions. It uses OpenAI Responses for trait extraction/report generation and **text-embedding-3-small (1024 dimensions)** for matching, with a separately generated 80-character index. No local Ollama is required online. The original Streamlit/BGE-M3 application remains available for local use.
 
 Set the Vercel project Root Directory to `web`, Framework Preset to Other, and leave Build Command and Output Directory unset. Set `OPENAI_API_KEY` as a sensitive server-side environment variable for the required environments; `OPENAI_MODEL` is optional (default `gpt-4.1-mini`). The key is never included in browser assets. Vercel account authentication protection remains enabled; visitors may need to sign in with project access. Each match uses your OpenAI API quota.
 
@@ -20,9 +20,11 @@ python preprocessing/generate_hosted_embeddings.py
 node --test web/tests/*.test.mjs
 ```
 
-Commit the generated `web/data/index.json` together with related catalog changes. Do not compare its vectors with `character_embeddings_ollama.npy`: these are different embedding spaces despite sharing 1024 dimensions. The offline evaluation below measures the local BGE-M3 retrieval implementation, not hosted OpenAI embedding quality.
+Edit the authoritative hosted catalog `web/data/characters.json`, then commit it together with the regenerated `web/data/index.json`. New profiles cover Bocchi the Rock!, Frieren, Delicious in Dungeon, Puella Magi Madoka Magica, SPY×FAMILY and Chainsaw Man. Preserve unique IDs and add `series`, `source_url`, `trait_origin` and `reviewed_at` for curated additions. The local BGE-M3 catalog and existing evaluation remain at 50 characters; extending that version requires regenerating its local vectors as well.
 
-Hosted API: `GET /api/catalog` returns catalog previews and readiness; `POST /api/match` accepts `{"description":"...","k":5}`. It validates inputs, bounds model output and request duration, computes stable cosine ranking against the cached index, and retains matches if narrative generation fails. Sessions and downloads live in the browser. Raw descriptions are sent to OpenAI with `store=false` for text requests and are not persisted by the application. This project does not implement a distributed rate limiter or per-user usage billing.
+Commit the generated index together with related catalog changes. Do not compare its vectors with `character_embeddings_ollama.npy`: these are different embedding spaces despite sharing 1024 dimensions. The offline evaluation below measures the local BGE-M3 retrieval implementation, not hosted OpenAI embedding quality.
+
+Hosted API: `GET /api/catalog` returns the complete catalog metadata and readiness; `POST /api/match` accepts `{"description":"...","k":5}`. It validates inputs, bounds model output and request duration, computes stable cosine ranking against the cached index, and retains matches if narrative generation fails. The hosted interface supports quick preference chips, draft undo, character counts, name/trait search, series filters, expandable profiles, favorites, result refinement and downloads. Drafts and favorites use per-tab `sessionStorage`, which can be cleared by closing the tab; they are not stored on the server. “Stop waiting” cancels the browser wait, and does not guarantee cancellation of an already-started server/OpenAI request. Raw descriptions are sent to OpenAI with `store=false` for text requests and are not persisted by the application. This project does not implement a distributed rate limiter or per-user usage billing.
 
 Recorded seed-42 random/Recall@5 results and their limitations are in [docs/evaluation/report.md](docs/evaluation/report.md). CI runs both the Python regression suite and the hosted Node.js suite.
 
@@ -93,7 +95,7 @@ The generation script reads `character_database.json` from the current directory
 
 ## Attribution and license
 
-Originally developed by LAM IOK HOI, University of Macau, for CISC3014. Code is MIT licensed; see `LICENSE`. Character traits originate from Moegirl Wiki. The code license does not establish rights to the source dataset; review source attribution and licensing before redistributing data.
+Originally developed by LAM IOK HOI, University of Macau, for CISC3014. Code is MIT licensed; see `LICENSE`. The original 50 character profiles originate from Moegirl Wiki. The hosted catalog adds 30 editorial trait summaries of official anime character introductions; each addition includes its source URL and review date. Source material retains its respective rights. The code license does not establish rights to the source dataset; review source attribution and licensing before redistributing data.
 
 ## Retrieval engineering and evaluation
 

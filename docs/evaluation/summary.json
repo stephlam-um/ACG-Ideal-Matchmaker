@@ -1,0 +1,56 @@
+{
+  "tag_query_sensitivity": [
+    {
+      "traits": 1,
+      "queries": 200,
+      "recall_at_1": 0.595,
+      "recall_at_5": 0.94
+    },
+    {
+      "traits": 2,
+      "queries": 200,
+      "recall_at_1": 0.945,
+      "recall_at_5": 1.0
+    },
+    {
+      "traits": 3,
+      "queries": 200,
+      "recall_at_1": 1.0,
+      "recall_at_5": 1.0
+    }
+  ],
+  "seed": 42,
+  "characters": 50,
+  "queries": 200,
+  "query_traits": 3,
+  "k": 5,
+  "protocol": "Synthetic partial-tag source-character retrieval. Single relevant source ID; other characters may also be relevant. Exact catalog tags are reused: optimistic proxy, not human relevance.",
+  "catalog_sha256": "20d4b987d3034685369c40b0e14ad26d9357345911dc120d1d91f7f604f8f2f1",
+  "random_recall_at_5": 0.095,
+  "random_expected_recall_at_5": 0.1,
+  "random_1000_trials_mean": 0.09946,
+  "random_1000_trials_95pct_range": [
+    0.05999999999999999,
+    0.14500000000000005
+  ],
+  "trait_recall_at_5": 1.0,
+  "trait_character_bootstrap_95pct_ci": [
+    1.0,
+    1.0
+  ],
+  "dense_quality": "NOT EVALUATED: no query embeddings available; stored character vectors are not used as quality queries.",
+  "latency_protocol": "2000 seeded random 1024D queries, same real corpus, 20 warmups, interleaved calls. Excludes LLM, embedding, index construction.",
+  "index_build_ms": 0.5552999791689217,
+  "latency": {
+    "reference": {
+      "median_ms": 0.12344999413471669,
+      "p95_ms": 0.2569100062828511
+    },
+    "prepared": {
+      "median_ms": 0.05709999823011458,
+      "p95_ms": 0.1437299884855747
+    }
+  },
+  "top5_identical": true,
+  "median_speedup": 2.161996461667298
+}

@@ -1,149 +1,113 @@
-# ACG Ideal Matchmaker
+# ACG Ideal Matchmaker · 理想型研究室
 
-## Overview
+Describe the personality and interactions you like, then discover matching anime, comic and game characters. Traditional Chinese Streamlit interface, local BGE-M3 embeddings, and OpenAI trait extraction and interpretation.
 
-The ACG Ideal Matchmaker is a semantic recommendation system designed to match users with ideal fictional characters from Anime, Comics, and Games (ACG) culture. Leveraging large language models (LLMs) for trait extraction, vector embeddings for similarity computation, and generative AI for personalized reports, this application provides nuanced, explainable matches based on user-described preferences (e.g., "Moe" attributes like *tsundere* or *yandere*).
+## Hosted version on Vercel
 
-The system features:
+The `web/` application is the deployment entrypoint: a responsive static frontend plus Node.js Vercel Functions. It uses OpenAI Responses for trait extraction/report generation and **text-embedding-3-small (1024 dimensions)** for matching, with a separately generated 50-character index. No local Ollama is required online. The original Streamlit/BGE-M3 application remains available for local use.
 
-- An offline ETL pipeline to crawl and vectorize character data from Moegirl Wiki.
-- A retrieval-augmented generation (RAG) engine using BGE-M3 embeddings and Google Gemini.
-- An interactive Streamlit interface for query submission and result visualization.
+Set the Vercel project Root Directory to `web`, Framework Preset to Other, and leave Build Command and Output Directory unset. Set `OPENAI_API_KEY` as a sensitive server-side environment variable for the required environments; `OPENAI_MODEL` is optional (default `gpt-4.1-mini`). The key is never included in browser assets. Vercel account authentication protection remains enabled; visitors may need to sign in with project access. Each match uses your OpenAI API quota.
 
-This README provides instructions for setup, preprocessing, and usage. The project is implemented in Python 3.10+ and assumes a local development environment.
+The hosted character index declares its model, dimensions and source catalog SHA-256. Regenerate it when changing the catalog or model:
 
-## Prerequisites
-
-Before proceeding, ensure the following are installed:
-
-- **Python 3.10+**: Download from [python.org](https://www.python.org/downloads/).
-- **Ollama**: For local embedding generation. Install from [ollama.com](https://ollama.com/download) and pull the BGE-M3 model via `ollama pull bge-m3`.
-- **Google Gemini API Key**: Obtain a free key from [Google AI Studio](https://aistudio.google.com/app/apikey). Set it as an environment variable: `export GEMINI_API_KEY="your-api-key-here"`.
-- **Chrome Browser**: Required for Selenium crawling (headless mode optional).
-- **Virtual Environment Tools**: Use `venv` (built-in) or `conda` for dependency isolation.
-
-## Installation
-
-1. **Clone or Download the Repository**:
-
-   ```
-   git clone https://github.com/stephlam-um/ACG-Ideal-Matchmaker
-   cd acg-ideal-matchmaker
-   ```
-
-2. **Create a Virtual Environment**:
-
-   ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install Dependencies**:
-   Create a `requirements.txt` file with the following content (if not provided):
-
-   ```
-   streamlit>=1.28.0
-   selenium>=4.0.0
-   webdriver-manager>=4.0.0
-   google-generativeai>=0.3.0
-   ollama>=0.1.0
-   scikit-learn>=1.3.0
-   numpy>=1.24.0
-   pandas>=2.0.0
-   plotly>=5.15.0
-   ```
-
-   Then install:
-
-   ```
-   pip install -r requirements.txt
-   ```
-
-## Setup and Preprocessing
-
-The application requires an initial offline preprocessing step to build the character dataset and embeddings. This must be run once (or after updating the dataset).
-
-### Step 1: Crawl Character Data
-
-Run the crawler to extract "Moe Points" from Moegirl Wiki:
-
+```powershell
+python preprocessing/generate_hosted_embeddings.py
+node --test web/tests/*.test.mjs
 ```
+
+Commit the generated `web/data/index.json` together with related catalog changes. Do not compare its vectors with `character_embeddings_ollama.npy`: these are different embedding spaces despite sharing 1024 dimensions. The offline evaluation below measures the local BGE-M3 retrieval implementation, not hosted OpenAI embedding quality.
+
+Hosted API: `GET /api/catalog` returns catalog previews and readiness; `POST /api/match` accepts `{"description":"...","k":5}`. It validates inputs, bounds model output and request duration, computes stable cosine ranking against the cached index, and retains matches if narrative generation fails. Sessions and downloads live in the browser. Raw descriptions are sent to OpenAI with `store=false` for text requests and are not persisted by the application. This project does not implement a distributed rate limiter or per-user usage billing.
+
+Recorded seed-42 random/Recall@5 results and their limitations are in [docs/evaluation/report.md](docs/evaluation/report.md). CI runs both the Python regression suite and the hosted Node.js suite.
+
+## Quick start (local Streamlit)
+
+Python 3.12 is recommended. The repository already contains character metadata and vectors; preprocessing is optional.
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+$env:OPENAI_API_KEY = "your-key"
+ollama pull bge-m3
+python -m streamlit run app.py
+```
+
+Ollama must be running locally; use `ollama serve` if its desktop service is not running. On macOS/Linux activate with `source .venv/bin/activate` and set the key with `export OPENAI_API_KEY="your-key"`. Copy `.env.example` to `.env` to configure a project-local key; `.env` is loaded automatically and excluded from Git and download packages. Environment variables take precedence. The default model is `gpt-4.1-mini`; set `OPENAI_MODEL` to change it. Restart the app after changing credentials.
+
+Without a OpenAI key, the interface still opens and shows the character catalog. Matching requires both the key and Ollama. User descriptions and retrieved character traits are sent to OpenAI; embedding runs locally.
+
+## Matching and scores
+
+1. OpenAI extracts preference keywords.
+2. Ollama embeds them using `bge-m3`, the same model used for the stored character vectors.
+3. Cosine similarity ranks the catalog; scores are min–max scaled across the full catalog.
+4. OpenAI interprets the candidates with their actual stored traits.
+
+A score of 100 means the highest relative score in this search, **not a probability or perfect compatibility**. Scores cannot be compared across searches. If all candidates tie they receive 50. Invalid, non-finite and zero vectors are rejected.
+
+Results stay available across interface reruns and can be downloaded as JSON. If report generation fails, the retrieved matches remain available. This is an exploratory recommendation tool; the dataset may contain incomplete or inaccurate character traits.
+
+## Project structure
+
+- `app.py`: page layout, cached catalog, form, session results and export.
+- `pipeline.py`: file loading, lazy OpenAI client, retries, extraction, embeddings, validated ranking and report generation. Data paths resolve relative to the module.
+- `preprocessing/`: optional data collection and vector generation scripts.
+- `tests/`: ranking regressions and Streamlit startup checks, without remote API calls.
+- `.github/workflows/checks.yml`: Python 3.12 tests and syntax checks.
+
+## Development
+
+```powershell
+python -m unittest discover -s tests -v
+python -m compileall -q app.py pipeline.py preprocessing
+```
+
+Dependencies have compatible major-version bounds. API credentials and virtual environments are ignored by Git. Do not commit real keys.
+
+## Optional preprocessing
+
+The crawler additionally needs `selenium` and `webdriver-manager`, plus Chrome. Review its target pages and pacing before running it.
+
+```powershell
+python -m pip install -r requirements-preprocessing.txt
+cd preprocessing
 python crawl.py
-```
-
-- **Expected Output**: A JSON file `character_database.json` with ~50 characters (e.g., {"name": "江戶川柯南", "moe_traits": ["正太", "偵探"], "trait_count": 3}).
-- **Duration**: 15–20 minutes (includes rate limiting).
-- **Notes**: Ensure ChromeDriver is installed via webdriver-manager. If issues arise (e.g., timeouts), check network connectivity or reduce the `CHARACTER_LIST` in `crawl.py`.
-
-### Step 2: Generate Embeddings
-
-Vectorize the dataset using Ollama:
-
-```
 python generate_embeddings.py
 ```
 
-- **Expected Output**: Files `character_embeddings_ollama.npy` (vectors) and `character_data_with_id.json` (metadata).
-- **Duration**: <5 minutes for 50 characters.
-- **Notes**: Verify Ollama is running (`ollama serve`). The script uses single-prompt embedding to avoid batch errors.
-
-## Usage
-
-### Running the Application
-
-1. **Start the Streamlit Server**:
-
-   ```
-   streamlit run app.py
-   ```
-
-   - The app opens in your default browser at `http://localhost:8501`.
-
-2. **Interact with the Interface**:
-
-   - **Sidebar Input**: Enter a free-form description of your ideal character (e.g., "A child-like detective with a strong sense of justice and sharp intellect").
-   - **Submit Query**: Click "🚀 開始匹配！ (尋找你的 TA)".
-   - **View Results**:
-     - **Matching Report**: A Gemini-generated narrative explaining the top match and runners-up.
-     - **Bar Chart**: Plotly visualization of top-5 scaled similarity scores (0–100%).
-     - **Results Table**: Pandas dataframe with ranks, names, scores (as progress bars), and top traits.
-     - **Extracted Traits**: List of 8–12 core "Moe points" derived from your query.
-
-3. **Example Queries**:
-
-   - Case 1 (Intellectual Detective): "A clever kid who looks innocent but solves mysteries like a pro."
-   - Case 2 (Compassionate Hard Worker): "A dedicated big sister type who's kind, strong, and always there to help."
-
-- **Response Time**: 3–5 seconds per query (due to LLM calls).
-- **Customization**: Adjust `TOP_K` in `pipeline.py` for more/fewer results.
-
-### Sample Output Structure
-
-For a query, expect:
-
-- Top Match: 江戶川柯南 (100%) – Traits: 正太, 正義感, 偵探.
-- Visualization: Horizontal bar chart with hover details.
-- Report: "Your ideal detective vibe perfectly aligns with Edogawa Conan's child-like genius..."
+The generation script reads `character_database.json` from the current directory. Copy its generated `character_data_with_id.json` and `character_embeddings_ollama.npy` to the repository root **together**. Regenerate all vectors if changing the embedding model; dimensions alone do not guarantee compatibility.
 
 ## Troubleshooting
 
-- **Ollama Errors**: Ensure `ollama serve` is active and BGE-M3 is pulled. Restart if embeddings fail.
-- **Gemini API Issues**: Verify `GEMINI_API_KEY` is set; check quotas at [Google AI Studio](https://aistudio.google.com).
-- **Selenium Failures**: Update ChromeDriver via `pip install --upgrade webdriver-manager`. For headless mode, uncomment in `crawl.py`.
-- **No Data Loaded**: Rerun preprocessing; check file paths in `pipeline.py`.
-- **High Latency**: Use a faster machine for Ollama; consider cloud deployment via Streamlit Cloud.
-- **Empty Traits**: Wiki pages may vary—manually inspect `character_database.json` and add fallbacks.
+- Missing key: set `OPENAI_API_KEY` in the same terminal before launching, then restart the app.
+- Ollama failure: verify its service is running and `bge-m3` is installed.
+- OpenAI failure: check credentials, network and quota. The application retries transient requests.
+- Invalid catalog or dimensions: regenerate metadata and vectors together.
 
-For bugs, review console logs or raise an issue on the repository.
+## Attribution and license
 
-## Contributing
+Originally developed by LAM IOK HOI, University of Macau, for CISC3014. Code is MIT licensed; see `LICENSE`. Character traits originate from Moegirl Wiki. The code license does not establish rights to the source dataset; review source attribution and licensing before redistributing data.
 
-This is a student project for CISC3014. Contributions are welcome via pull requests—focus on robustness (e.g., more characters, multilingual support). Please adhere to fair-use scraping and cite sources.
+## Retrieval engineering and evaluation
 
-## License
+`retrieval.CosineIndex` validates, copies and normalizes the corpus once. The Streamlit application caches this index across reruns and users; each search normalizes only the query. It retains stable ordering and the existing relative score display. `pipeline.match_user` remains the uncached reference for equivalence checks. With just 50 candidates, a full stable sort is deliberately retained; approximate nearest-neighbor infrastructure would add complexity without a demonstrated need.
 
-MIT License. See [LICENSE](LICENSE) for details. Data from Moegirl Wiki used under fair use for educational purposes.
+Successful trait extraction and report generation no longer sleep for one second each. Failure retries still use backoff. This removes two seconds of explicit waiting on the successful path, but remote model latency has not been benchmarked.
 
----
+Run the offline evaluation:
 
-*Project developed by LAM IOK HOI (DC326834), University of Macau, December 2025.*
+```powershell
+python evaluation.py --seed 42 --output evaluation-results
+```
+
+The evaluator writes `summary.json` and all 200 query cases to `cases.json`. It samples three existing traits per character, four queries for each of 50 characters, with the source character as the single relevant ID. It compares uniform random sampling without replacement against an exact-trait IDF retrieval baseline, then repeats random recommendation 1,000 times. It additionally checks sensitivity to one, two and three query traits.
+
+**This is an optimistic synthetic source-retrieval proxy, not a real relevance benchmark.** Exact catalog tags appear in queries; other characters may also satisfy the preference but are not labelled relevant. A perfect proxy score must not be reported as semantic matching accuracy. Random expected Recall@5 is 5/50 = 10% here. For multiple relevant IDs, Recall@5 is the number of relevant retrieved IDs divided by the total relevant IDs, not just whether any hit exists.
+
+Dense latency uses 2,000 seeded random vectors against the real corpus, 20 warmups and interleaved reference/index calls. It reports median and p95 and verifies top-5 IDs and scores. These queries measure speed and equivalence only. Index construction and all model/API calls are excluded.
+
+To establish real quality improvement, collect independent natural-language queries and human-labelled relevant character IDs, embed those queries with the same BGE-M3 model, then compare dense-only, lexical-only and hybrid ranking on a held-out set. Do not reuse character embeddings as test query vectors: that would measure self-retrieval. Ollama was unavailable during this run, so dense Recall@5 and end-to-end latency remain unmeasured. The lexical baseline is not enabled as a replacement in the application.
+
+OpenAI text calls use the Responses API with `store=False`, a 30-second request timeout and up to two SDK retries for transient errors. Authentication and quota errors are shown without response bodies or credentials. API details: https://developers.openai.com/api/reference/python/resources/responses/methods/create

@@ -1,7 +1,5 @@
-google-genai
-streamlit
-numpy
-scikit-learn
-pandas
-plotly
-ollama
+openai>=2,<3
+python-dotenv>=1,<2
+streamlit>=1.40,<2
+numpy>=1.26,<3
+ollama>=0.4,<1

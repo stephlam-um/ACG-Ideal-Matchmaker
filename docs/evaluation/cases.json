@@ -1,0 +1,5194 @@
+[
+  {
+    "case_id": "38-2",
+    "traits": [
+      "甜食控",
+      "高中生",
+      "half-up"
+    ],
+    "relevant_ids": [
+      38
+    ],
+    "random_top5": [
+      32,
+      31,
+      36,
+      42,
+      34
+    ],
+    "trait_top5": [
+      38,
+      32,
+      0,
+      7,
+      12
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "45-1",
+    "traits": [
+      "吐槽",
+      "溫柔",
+      "正宮"
+    ],
+    "relevant_ids": [
+      45
+    ],
+    "random_top5": [
+      1,
+      27,
+      28,
+      15,
+      48
+    ],
+    "trait_top5": [
+      45,
+      1,
+      14,
+      6,
+      7
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "22-2",
+    "traits": [
+      "玩家",
+      "高度近視",
+      "雙馬尾"
+    ],
+    "relevant_ids": [
+      22
+    ],
+    "random_top5": [
+      23,
+      1,
+      21,
+      35,
+      24
+    ],
+    "trait_top5": [
+      22,
+      48,
+      21,
+      34
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "19-3",
+    "traits": [
+      "三白眼",
+      "吊眼",
+      "輕微中二"
+    ],
+    "relevant_ids": [
+      19
+    ],
+    "random_top5": [
+      22,
+      36,
+      13,
+      21,
+      26
+    ],
+    "trait_top5": [
+      19,
+      41,
+      7,
+      12,
+      42
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "36-2",
+    "traits": [
+      "素足履",
+      "貓系萌娘",
+      "顏藝"
+    ],
+    "relevant_ids": [
+      36
+    ],
+    "random_top5": [
+      41,
+      28,
+      29,
+      42,
+      35
+    ],
+    "trait_top5": [
+      36,
+      11,
+      14,
+      0,
+      7
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "49-3",
+    "traits": [
+      "有錢",
+      "斜劉海",
+      "寶塚系"
+    ],
+    "relevant_ids": [
+      49
+    ],
+    "random_top5": [
+      25,
+      11,
+      49,
+      4,
+      13
+    ],
+    "trait_top5": [
+      49,
+      10
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "47-0",
+    "traits": [
+      "過膝靴",
+      "有胸的帥哥",
+      "幼馴染"
+    ],
+    "relevant_ids": [
+      47
+    ],
+    "random_top5": [
+      40,
+      32,
+      16,
+      17,
+      37
+    ],
+    "trait_top5": [
+      47,
+      28,
+      10,
+      22
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "37-1",
+    "traits": [
+      "毒舌",
+      "天才",
+      "天降青梅"
+    ],
+    "relevant_ids": [
+      37
+    ],
+    "random_top5": [
+      49,
+      19,
+      22,
+      33,
+      17
+    ],
+    "trait_top5": [
+      37,
+      0,
+      32,
+      14,
+      33
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "20-2",
+    "traits": [
+      "美少年",
+      "孤僻",
+      "儲備糧"
+    ],
+    "relevant_ids": [
+      20
+    ],
+    "random_top5": [
+      21,
+      6,
+      12,
+      43,
+      42
+    ],
+    "trait_top5": [
+      20,
+      14,
+      44,
+      4,
+      25
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "24-0",
+    "traits": [
+      "軟妹",
+      "妹妹",
+      "魔法少女"
+    ],
+    "relevant_ids": [
+      24
+    ],
+    "random_top5": [
+      4,
+      12,
+      6,
+      17,
+      5
+    ],
+    "trait_top5": [
+      24,
+      14,
+      21,
+      17,
+      13
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "13-3",
+    "traits": [
+      "黑色及膝襪",
+      "身份差異戀",
+      "怪力女"
+    ],
+    "relevant_ids": [
+      13
+    ],
+    "random_top5": [
+      25,
+      9,
+      32,
+      4,
+      6
+    ],
+    "trait_top5": [
+      13,
+      10,
+      12
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "40-0",
+    "traits": [
+      "傷疤",
+      "咬手指",
+      "弟弟"
+    ],
+    "relevant_ids": [
+      40
+    ],
+    "random_top5": [
+      47,
+      18,
+      22,
+      4,
+      7
+    ],
+    "trait_top5": [
+      40,
+      5,
+      25,
+      1,
+      36
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "34-0",
+    "traits": [
+      "中靴",
+      "裝弱",
+      "黑色連褲襪"
+    ],
+    "relevant_ids": [
+      34
+    ],
+    "random_top5": [
+      45,
+      26,
+      38,
+      36,
+      44
+    ],
+    "trait_top5": [
+      34
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "26-1",
+    "traits": [
+      "人夫",
+      "英雄",
+      "高中生"
+    ],
+    "relevant_ids": [
+      26
+    ],
+    "random_top5": [
+      34,
+      40,
+      25,
+      0,
+      27
+    ],
+    "trait_top5": [
+      26,
+      5,
+      25,
+      12,
+      13
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "18-1",
+    "traits": [
+      "天才",
+      "貧乳",
+      "生活白痴"
+    ],
+    "relevant_ids": [
+      18
+    ],
+    "random_top5": [
+      26,
+      1,
+      12,
+      47,
+      49
+    ],
+    "trait_top5": [
+      18,
+      13,
+      0,
+      2,
+      6
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "6-1",
+    "traits": [
+      "眼鏡",
+      "足球",
+      "傲嬌"
+    ],
+    "relevant_ids": [
+      6
+    ],
+    "random_top5": [
+      17,
+      9,
+      26,
+      27,
+      46
+    ],
+    "trait_top5": [
+      6,
+      13,
+      19,
+      22,
+      25
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "35-2",
+    "traits": [
+      "瑪麗珍鞋",
+      "實驗體",
+      "第三人稱己稱"
+    ],
+    "relevant_ids": [
+      35
+    ],
+    "random_top5": [
+      7,
+      21,
+      11,
+      30,
+      48
+    ],
+    "trait_top5": [
+      35,
+      17,
+      33
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "39-2",
+    "traits": [
+      "惡魔",
+      "反社會人格",
+      "變身"
+    ],
+    "relevant_ids": [
+      39
+    ],
+    "random_top5": [
+      6,
+      41,
+      39,
+      28,
+      42
+    ],
+    "trait_top5": [
+      39,
+      8,
+      21,
+      41
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "17-0",
+    "traits": [
+      "短髮",
+      "第三人稱己稱",
+      "外套披肩"
+    ],
+    "relevant_ids": [
+      17
+    ],
+    "random_top5": [
+      47,
+      30,
+      6,
+      29,
+      25
+    ],
+    "trait_top5": [
+      17,
+      35,
+      5,
+      12,
+      24
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "39-0",
+    "traits": [
+      "舔狗",
+      "壞掉",
+      "貧窮"
+    ],
+    "relevant_ids": [
+      39
+    ],
+    "random_top5": [
+      30,
+      42,
+      15,
+      9,
+      6
+    ],
+    "trait_top5": [
+      39,
+      7,
+      12,
+      19
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "48-2",
+    "traits": [
+      "惡意賣萌（動畫）",
+      "天才",
+      "後宮王"
+    ],
+    "relevant_ids": [
+      48
+    ],
+    "random_top5": [
+      25,
+      18,
+      28,
+      44,
+      20
+    ],
+    "trait_top5": [
+      48,
+      0,
+      2,
+      6,
+      13
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "25-2",
+    "traits": [
+      "輪迴眼",
+      "美少年",
+      "自帶BGM"
+    ],
+    "relevant_ids": [
+      25
+    ],
+    "random_top5": [
+      36,
+      4,
+      45,
+      0,
+      25
+    ],
+    "trait_top5": [
+      25,
+      5,
+      19,
+      4,
+      20
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "3-2",
+    "traits": [
+      "抽煙",
+      "哥哥",
+      "普通人"
+    ],
+    "relevant_ids": [
+      3
+    ],
+    "random_top5": [
+      32,
+      47,
+      3,
+      40,
+      9
+    ],
+    "trait_top5": [
+      3,
+      9,
+      12,
+      48
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "9-0",
+    "traits": [
+      "前臥底",
+      "針織帽是本體",
+      "易容"
+    ],
+    "relevant_ids": [
+      9
+    ],
+    "random_top5": [
+      14,
+      46,
+      5,
+      30,
+      0
+    ],
+    "trait_top5": [
+      9
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "16-3",
+    "traits": [
+      "大小姐",
+      "黑化",
+      "痴女"
+    ],
+    "relevant_ids": [
+      16
+    ],
+    "random_top5": [
+      7,
+      28,
+      40,
+      33,
+      22
+    ],
+    "trait_top5": [
+      16,
+      13,
+      17,
+      29,
+      33
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "15-1",
+    "traits": [
+      "妹妹頭",
+      "溫柔",
+      "反差萌"
+    ],
+    "relevant_ids": [
+      15
+    ],
+    "random_top5": [
+      45,
+      40,
+      44,
+      9,
+      30
+    ],
+    "trait_top5": [
+      15,
+      45,
+      10,
+      37,
+      1
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "37-0",
+    "traits": [
+      "童星",
+      "虎牙",
+      "純情"
+    ],
+    "relevant_ids": [
+      37
+    ],
+    "random_top5": [
+      17,
+      20,
+      28,
+      43,
+      13
+    ],
+    "trait_top5": [
+      37,
+      14,
+      22
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "20-0",
+    "traits": [
+      "美少年",
+      "溫柔",
+      "孤僻"
+    ],
+    "relevant_ids": [
+      20
+    ],
+    "random_top5": [
+      19,
+      11,
+      40,
+      37,
+      3
+    ],
+    "trait_top5": [
+      20,
+      48,
+      14,
+      44,
+      4
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "17-1",
+    "traits": [
+      "黑化",
+      "齊劉海",
+      "單戀"
+    ],
+    "relevant_ids": [
+      17
+    ],
+    "random_top5": [
+      3,
+      43,
+      29,
+      46,
+      24
+    ],
+    "trait_top5": [
+      17,
+      33,
+      22,
+      16,
+      46
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "46-3",
+    "traits": [
+      "食屍鬼",
+      "）",
+      "人妻"
+    ],
+    "relevant_ids": [
+      46
+    ],
+    "random_top5": [
+      6,
+      38,
+      10,
+      39,
+      0
+    ],
+    "trait_top5": [
+      46,
+      24,
+      28,
+      33,
+      45
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "47-3",
+    "traits": [
+      "幼馴染",
+      "暗戀對象",
+      "混血兒"
+    ],
+    "relevant_ids": [
+      47
+    ],
+    "random_top5": [
+      46,
+      10,
+      37,
+      40,
+      39
+    ],
+    "trait_top5": [
+      47,
+      22,
+      10,
+      9,
+      38
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "29-0",
+    "traits": [
+      "酒品差",
+      "和服",
+      "京都臉"
+    ],
+    "relevant_ids": [
+      29
+    ],
+    "random_top5": [
+      11,
+      36,
+      13,
+      10,
+      5
+    ],
+    "trait_top5": [
+      29,
+      7,
+      28
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "37-3",
+    "traits": [
+      "貝雷帽",
+      "純情",
+      "妹妹頭"
+    ],
+    "relevant_ids": [
+      37
+    ],
+    "random_top5": [
+      23,
+      15,
+      41,
+      32,
+      11
+    ],
+    "trait_top5": [
+      37,
+      45,
+      15
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "2-0",
+    "traits": [
+      "長直",
+      "剪髮",
+      "留長髮"
+    ],
+    "relevant_ids": [
+      2
+    ],
+    "random_top5": [
+      43,
+      14,
+      26,
+      46,
+      15
+    ],
+    "trait_top5": [
+      2,
+      1,
+      17,
+      32,
+      49
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "33-3",
+    "traits": [
+      "白色過膝襪",
+      "冷嬌",
+      "水能力"
+    ],
+    "relevant_ids": [
+      33
+    ],
+    "random_top5": [
+      31,
+      41,
+      23,
+      38,
+      4
+    ],
+    "trait_top5": [
+      33,
+      14,
+      35,
+      38,
+      49
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "9-1",
+    "traits": [
+      "哥哥",
+      "情強",
+      "抽煙"
+    ],
+    "relevant_ids": [
+      9
+    ],
+    "random_top5": [
+      10,
+      16,
+      30,
+      3,
+      34
+    ],
+    "trait_top5": [
+      9,
+      3,
+      12,
+      48
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "5-2",
+    "traits": [
+      "召喚師",
+      "熊孩子",
+      "義肢"
+    ],
+    "relevant_ids": [
+      5
+    ],
+    "random_top5": [
+      8,
+      38,
+      37,
+      24,
+      26
+    ],
+    "trait_top5": [
+      5
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "14-0",
+    "traits": [
+      "貓奴",
+      "妹妹",
+      "歸國子女"
+    ],
+    "relevant_ids": [
+      14
+    ],
+    "random_top5": [
+      27,
+      41,
+      8,
+      5,
+      28
+    ],
+    "trait_top5": [
+      14,
+      13,
+      16,
+      24,
+      33
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "6-3",
+    "traits": [
+      "偵探",
+      "正太",
+      "眼鏡反光"
+    ],
+    "relevant_ids": [
+      6
+    ],
+    "random_top5": [
+      38,
+      41,
+      14,
+      37,
+      46
+    ],
+    "trait_top5": [
+      6,
+      2,
+      9
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "9-2",
+    "traits": [
+      "狙擊手",
+      "龍鬚劉海",
+      "混血兒"
+    ],
+    "relevant_ids": [
+      9
+    ],
+    "random_top5": [
+      44,
+      38,
+      20,
+      40,
+      42
+    ],
+    "trait_top5": [
+      9,
+      22,
+      38,
+      47
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "38-1",
+    "traits": [
+      "甜食控",
+      "極度怕辣",
+      "絕對領域"
+    ],
+    "relevant_ids": [
+      38
+    ],
+    "random_top5": [
+      4,
+      44,
+      24,
+      45,
+      29
+    ],
+    "trait_top5": [
+      38,
+      0,
+      7,
+      10,
+      14
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "45-0",
+    "traits": [
+      "高馬尾（中期）",
+      "flag粉碎者",
+      "妹妹頭"
+    ],
+    "relevant_ids": [
+      45
+    ],
+    "random_top5": [
+      8,
+      20,
+      5,
+      12,
+      19
+    ],
+    "trait_top5": [
+      45,
+      15,
+      37
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "10-1",
+    "traits": [
+      "黑長直",
+      "路痴",
+      "怕打雷"
+    ],
+    "relevant_ids": [
+      10
+    ],
+    "random_top5": [
+      22,
+      35,
+      43,
+      9,
+      23
+    ],
+    "trait_top5": [
+      10,
+      14,
+      13,
+      16,
+      28
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "1-3",
+    "traits": [
+      "高額頭",
+      "老好人",
+      "剪髮"
+    ],
+    "relevant_ids": [
+      1
+    ],
+    "random_top5": [
+      43,
+      7,
+      20,
+      5,
+      33
+    ],
+    "trait_top5": [
+      1,
+      19,
+      2,
+      17,
+      12
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "36-3",
+    "traits": [
+      "藥師",
+      "貓系萌娘",
+      "私生女"
+    ],
+    "relevant_ids": [
+      36
+    ],
+    "random_top5": [
+      42,
+      4,
+      19,
+      8,
+      32
+    ],
+    "trait_top5": [
+      36,
+      14
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "14-1",
+    "traits": [
+      "絕對領域",
+      "雙馬尾（僅兩次）",
+      "反差萌"
+    ],
+    "relevant_ids": [
+      14
+    ],
+    "random_top5": [
+      21,
+      10,
+      18,
+      14,
+      43
+    ],
+    "trait_top5": [
+      14,
+      10,
+      17,
+      22,
+      21
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "48-0",
+    "traits": [
+      "裝逼",
+      "後宮王",
+      "光劍（GGO篇）"
+    ],
+    "relevant_ids": [
+      48
+    ],
+    "random_top5": [
+      47,
+      0,
+      44,
+      27,
+      24
+    ],
+    "trait_top5": [
+      48,
+      25
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "44-0",
+    "traits": [
+      "撲克臉",
+      "短髮",
+      "中提琴"
+    ],
+    "relevant_ids": [
+      44
+    ],
+    "random_top5": [
+      32,
+      26,
+      34,
+      31,
+      18
+    ],
+    "trait_top5": [
+      44,
+      5,
+      12,
+      17,
+      24
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "13-1",
+    "traits": [
+      "病嬌",
+      "實妹",
+      "怪力女"
+    ],
+    "relevant_ids": [
+      13
+    ],
+    "random_top5": [
+      42,
+      23,
+      24,
+      8,
+      34
+    ],
+    "trait_top5": [
+      13,
+      10
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "26-2",
+    "traits": [
+      "高中生",
+      "人夫",
+      "偶像"
+    ],
+    "relevant_ids": [
+      26
+    ],
+    "random_top5": [
+      26,
+      8,
+      24,
+      29,
+      43
+    ],
+    "trait_top5": [
+      26,
+      37,
+      5,
+      25,
+      12
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "35-3",
+    "traits": [
+      "養女",
+      "實驗體",
+      "第三人稱己稱"
+    ],
+    "relevant_ids": [
+      35
+    ],
+    "random_top5": [
+      12,
+      20,
+      22,
+      33,
+      48
+    ],
+    "trait_top5": [
+      35,
+      17,
+      36
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "23-0",
+    "traits": [
+      "遊戲宅",
+      "蠢萌",
+      "內層挑染"
+    ],
+    "relevant_ids": [
+      23
+    ],
+    "random_top5": [
+      18,
+      29,
+      6,
+      48,
+      12
+    ],
+    "trait_top5": [
+      23,
+      41
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "19-0",
+    "traits": [
+      "重生者",
+      "顏藝",
+      "S/L大法"
+    ],
+    "relevant_ids": [
+      19
+    ],
+    "random_top5": [
+      39,
+      49,
+      26,
+      38,
+      25
+    ],
+    "trait_top5": [
+      19,
+      0,
+      7,
+      13,
+      28
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "12-3",
+    "traits": [
+      "黑眼圈",
+      "眼神兇惡",
+      "努力"
+    ],
+    "relevant_ids": [
+      12
+    ],
+    "random_top5": [
+      38,
+      46,
+      3,
+      39,
+      40
+    ],
+    "trait_top5": [
+      12
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "6-0",
+    "traits": [
+      "滑板",
+      "鼻血",
+      "紳士"
+    ],
+    "relevant_ids": [
+      6
+    ],
+    "random_top5": [
+      12,
+      36,
+      28,
+      2,
+      39
+    ],
+    "trait_top5": [
+      6,
+      23
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "44-3",
+    "traits": [
+      "中提琴",
+      "棉白胖次",
+      "機械人駕駛員"
+    ],
+    "relevant_ids": [
+      44
+    ],
+    "random_top5": [
+      13,
+      11,
+      28,
+      44,
+      19
+    ],
+    "trait_top5": [
+      44,
+      10
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "12-0",
+    "traits": [
+      "努力",
+      "優等生",
+      "料理達人"
+    ],
+    "relevant_ids": [
+      12
+    ],
+    "random_top5": [
+      4,
+      35,
+      9,
+      43,
+      11
+    ],
+    "trait_top5": [
+      12,
+      38,
+      14,
+      16,
+      25
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "27-3",
+    "traits": [
+      "女裝",
+      "旁白",
+      "蘿莉控"
+    ],
+    "relevant_ids": [
+      27
+    ],
+    "random_top5": [
+      28,
+      40,
+      22,
+      12,
+      33
+    ],
+    "trait_top5": [
+      27,
+      7,
+      19
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "41-0",
+    "traits": [
+      "刺蝟頭",
+      "劍眉",
+      "棍棒"
+    ],
+    "relevant_ids": [
+      41
+    ],
+    "random_top5": [
+      34,
+      37,
+      17,
+      19,
+      43
+    ],
+    "trait_top5": [
+      41,
+      0,
+      5
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "11-3",
+    "traits": [
+      "狼娘",
+      "裸奔",
+      "素足履"
+    ],
+    "relevant_ids": [
+      11
+    ],
+    "random_top5": [
+      4,
+      38,
+      21,
+      25,
+      32
+    ],
+    "trait_top5": [
+      11,
+      36
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "2-2",
+    "traits": [
+      "學姐",
+      "演員",
+      "單純"
+    ],
+    "relevant_ids": [
+      2
+    ],
+    "random_top5": [
+      10,
+      18,
+      46,
+      37,
+      16
+    ],
+    "trait_top5": [
+      2,
+      37,
+      13,
+      15
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "36-1",
+    "traits": [
+      "下雙馬尾",
+      "養女",
+      "貓系萌娘"
+    ],
+    "relevant_ids": [
+      36
+    ],
+    "random_top5": [
+      6,
+      17,
+      22,
+      49,
+      35
+    ],
+    "trait_top5": [
+      36,
+      14,
+      35
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "20-3",
+    "traits": [
+      "儲備糧",
+      "美少年",
+      "暖男"
+    ],
+    "relevant_ids": [
+      20
+    ],
+    "random_top5": [
+      9,
+      30,
+      8,
+      18,
+      7
+    ],
+    "trait_top5": [
+      20,
+      1,
+      4,
+      25,
+      48
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "35-1",
+    "traits": [
+      "小錐帽髮飾",
+      "實驗體",
+      "上帝視角"
+    ],
+    "relevant_ids": [
+      35
+    ],
+    "random_top5": [
+      14,
+      46,
+      28,
+      0,
+      47
+    ],
+    "trait_top5": [
+      35
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "10-2",
+    "traits": [
+      "怕打雷",
+      "運動少女",
+      "美少女"
+    ],
+    "relevant_ids": [
+      10
+    ],
+    "random_top5": [
+      33,
+      26,
+      9,
+      20,
+      22
+    ],
+    "trait_top5": [
+      10,
+      24,
+      2,
+      14,
+      37
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "1-1",
+    "traits": [
+      "老好人",
+      "溫柔",
+      "小天使"
+    ],
+    "relevant_ids": [
+      1
+    ],
+    "random_top5": [
+      34,
+      17,
+      18,
+      27,
+      31
+    ],
+    "trait_top5": [
+      1,
+      48,
+      12,
+      36,
+      2
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "48-3",
+    "traits": [
+      "哥哥",
+      "爸爸",
+      "偽娘"
+    ],
+    "relevant_ids": [
+      48
+    ],
+    "random_top5": [
+      16,
+      45,
+      24,
+      15,
+      40
+    ],
+    "trait_top5": [
+      48,
+      5,
+      46,
+      3,
+      9
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "24-1",
+    "traits": [
+      "天然呆",
+      "小學生",
+      "治癒系"
+    ],
+    "relevant_ids": [
+      24
+    ],
+    "random_top5": [
+      33,
+      34,
+      31,
+      21,
+      20
+    ],
+    "trait_top5": [
+      24,
+      35,
+      10,
+      1,
+      20
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "0-3",
+    "traits": [
+      "最強",
+      "神性",
+      "吃貨"
+    ],
+    "relevant_ids": [
+      0
+    ],
+    "random_top5": [
+      36,
+      7,
+      47,
+      38,
+      45
+    ],
+    "trait_top5": [
+      0,
+      42,
+      11,
+      21,
+      36
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "33-0",
+    "traits": [
+      "倖存者",
+      "短髮",
+      "垂眼"
+    ],
+    "relevant_ids": [
+      33
+    ],
+    "random_top5": [
+      1,
+      43,
+      20,
+      3,
+      44
+    ],
+    "trait_top5": [
+      33,
+      25,
+      34,
+      5,
+      12
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "43-3",
+    "traits": [
+      "大胃王",
+      "西裝（Zero）",
+      "天然"
+    ],
+    "relevant_ids": [
+      43
+    ],
+    "random_top5": [
+      6,
+      9,
+      34,
+      20,
+      5
+    ],
+    "trait_top5": [
+      43
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "31-1",
+    "traits": [
+      "長直發",
+      "中二",
+      "反差萌"
+    ],
+    "relevant_ids": [
+      31
+    ],
+    "random_top5": [
+      2,
+      20,
+      47,
+      29,
+      23
+    ],
+    "trait_top5": [
+      31,
+      25,
+      10,
+      12,
+      14
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "31-0",
+    "traits": [
+      "反差萌",
+      "中二",
+      "天使"
+    ],
+    "relevant_ids": [
+      31
+    ],
+    "random_top5": [
+      44,
+      14,
+      27,
+      13,
+      26
+    ],
+    "trait_top5": [
+      31,
+      25,
+      10,
+      12,
+      14
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "19-1",
+    "traits": [
+      "三白眼",
+      "傭人",
+      "輕微中二"
+    ],
+    "relevant_ids": [
+      19
+    ],
+    "random_top5": [
+      16,
+      46,
+      31,
+      10,
+      7
+    ],
+    "trait_top5": [
+      19,
+      7,
+      12,
+      42
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "10-0",
+    "traits": [
+      "鋼琴",
+      "怪力女",
+      "棉白胖次"
+    ],
+    "relevant_ids": [
+      10
+    ],
+    "random_top5": [
+      6,
+      45,
+      43,
+      34,
+      39
+    ],
+    "trait_top5": [
+      10,
+      13,
+      44
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "28-1",
+    "traits": [
+      "天然呆",
+      "黑長直",
+      "黑暗料理"
+    ],
+    "relevant_ids": [
+      28
+    ],
+    "random_top5": [
+      21,
+      34,
+      7,
+      25,
+      48
+    ],
+    "trait_top5": [
+      28,
+      10,
+      29,
+      13,
+      14
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "16-0",
+    "traits": [
+      "兄控",
+      "優等生",
+      "痴女"
+    ],
+    "relevant_ids": [
+      16
+    ],
+    "random_top5": [
+      2,
+      42,
+      41,
+      21,
+      5
+    ],
+    "trait_top5": [
+      16,
+      25,
+      30,
+      12,
+      14
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "17-2",
+    "traits": [
+      "棒球帽",
+      "布魯瑪",
+      "前敗犬"
+    ],
+    "relevant_ids": [
+      17
+    ],
+    "random_top5": [
+      38,
+      15,
+      9,
+      2,
+      49
+    ],
+    "trait_top5": [
+      17
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "12-2",
+    "traits": [
+      "黑眼圈",
+      "工業廢料",
+      "反差萌"
+    ],
+    "relevant_ids": [
+      12
+    ],
+    "random_top5": [
+      34,
+      45,
+      38,
+      48,
+      5
+    ],
+    "trait_top5": [
+      12,
+      10,
+      14,
+      15,
+      17
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "37-2",
+    "traits": [
+      "蘿莉體型",
+      "口嫌體正直",
+      "傲沉"
+    ],
+    "relevant_ids": [
+      37
+    ],
+    "random_top5": [
+      25,
+      23,
+      37,
+      18,
+      29
+    ],
+    "trait_top5": [
+      37,
+      13
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "14-3",
+    "traits": [
+      "部長",
+      "正宮",
+      "毒舌"
+    ],
+    "relevant_ids": [
+      14
+    ],
+    "random_top5": [
+      9,
+      35,
+      28,
+      48,
+      29
+    ],
+    "trait_top5": [
+      14,
+      45,
+      0,
+      32,
+      33
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "24-2",
+    "traits": [
+      "身體柔軟",
+      "進氣口髮型",
+      "魔杖"
+    ],
+    "relevant_ids": [
+      24
+    ],
+    "random_top5": [
+      24,
+      49,
+      34,
+      1,
+      29
+    ],
+    "trait_top5": [
+      24
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "27-2",
+    "traits": [
+      "蘿莉控",
+      "女裝",
+      "旁白"
+    ],
+    "relevant_ids": [
+      27
+    ],
+    "random_top5": [
+      30,
+      2,
+      11,
+      13,
+      19
+    ],
+    "trait_top5": [
+      27,
+      7,
+      19
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "23-3",
+    "traits": [
+      "rua",
+      "連衣裙",
+      "雙螺旋"
+    ],
+    "relevant_ids": [
+      23
+    ],
+    "random_top5": [
+      18,
+      11,
+      13,
+      49,
+      5
+    ],
+    "trait_top5": [
+      23,
+      30,
+      17,
+      32
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "6-2",
+    "traits": [
+      "眼鏡",
+      "各種名場面之源",
+      "領結"
+    ],
+    "relevant_ids": [
+      6
+    ],
+    "random_top5": [
+      20,
+      14,
+      9,
+      10,
+      27
+    ],
+    "trait_top5": [
+      6
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "30-3",
+    "traits": [
+      "和服（小說第三卷和動漫第8集）",
+      "家裏蹲",
+      "淑女"
+    ],
+    "relevant_ids": [
+      30
+    ],
+    "random_top5": [
+      8,
+      7,
+      47,
+      23,
+      33
+    ],
+    "trait_top5": [
+      30,
+      19
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "27-1",
+    "traits": [
+      "兄長",
+      "旁白",
+      "女裝"
+    ],
+    "relevant_ids": [
+      27
+    ],
+    "random_top5": [
+      8,
+      49,
+      32,
+      24,
+      11
+    ],
+    "trait_top5": [
+      27,
+      7,
+      19
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "32-3",
+    "traits": [
+      "長靴",
+      "遮耳發",
+      "溫柔"
+    ],
+    "relevant_ids": [
+      32
+    ],
+    "random_top5": [
+      4,
+      2,
+      8,
+      39,
+      25
+    ],
+    "trait_top5": [
+      32,
+      47,
+      1,
+      2,
+      3
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "16-2",
+    "traits": [
+      "大小姐",
+      "妹妹",
+      "黑長直"
+    ],
+    "relevant_ids": [
+      16
+    ],
+    "random_top5": [
+      39,
+      42,
+      45,
+      6,
+      31
+    ],
+    "trait_top5": [
+      13,
+      16,
+      29,
+      14,
+      49
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "25-1",
+    "traits": [
+      "日本刀",
+      "基友",
+      "復仇"
+    ],
+    "relevant_ids": [
+      25
+    ],
+    "random_top5": [
+      48,
+      43,
+      13,
+      49,
+      24
+    ],
+    "trait_top5": [
+      25,
+      3,
+      1
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "21-3",
+    "traits": [
+      "王冠",
+      "魔法少女",
+      "冒失娘"
+    ],
+    "relevant_ids": [
+      21
+    ],
+    "random_top5": [
+      18,
+      2,
+      11,
+      15,
+      8
+    ],
+    "trait_top5": [
+      21,
+      24
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "5-3",
+    "traits": [
+      "人夫",
+      "十字瞳孔",
+      "殘念系"
+    ],
+    "relevant_ids": [
+      5
+    ],
+    "random_top5": [
+      16,
+      22,
+      46,
+      8,
+      31
+    ],
+    "trait_top5": [
+      5,
+      28,
+      25,
+      26
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "49-2",
+    "traits": [
+      "媽媽",
+      "大和撫子",
+      "斜劉海"
+    ],
+    "relevant_ids": [
+      49
+    ],
+    "random_top5": [
+      28,
+      16,
+      17,
+      30,
+      13
+    ],
+    "trait_top5": [
+      49,
+      33,
+      10,
+      29,
+      13
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "42-2",
+    "traits": [
+      "獨眼",
+      "鬥神",
+      "童顏"
+    ],
+    "relevant_ids": [
+      42
+    ],
+    "random_top5": [
+      30,
+      37,
+      1,
+      5,
+      15
+    ],
+    "trait_top5": [
+      42
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "4-1",
+    "traits": [
+      "留長髮",
+      "中分",
+      "呆毛"
+    ],
+    "relevant_ids": [
+      4
+    ],
+    "random_top5": [
+      13,
+      41,
+      37,
+      34,
+      48
+    ],
+    "trait_top5": [
+      4,
+      13,
+      2,
+      3,
+      44
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "36-0",
+    "traits": [
+      "養女",
+      "雀斑",
+      "下雙馬尾"
+    ],
+    "relevant_ids": [
+      36
+    ],
+    "random_top5": [
+      43,
+      41,
+      39,
+      8,
+      23
+    ],
+    "trait_top5": [
+      36,
+      35
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "32-1",
+    "traits": [
+      "披風",
+      "毒舌",
+      "豐滿體型"
+    ],
+    "relevant_ids": [
+      32
+    ],
+    "random_top5": [
+      17,
+      8,
+      33,
+      32,
+      19
+    ],
+    "trait_top5": [
+      32,
+      42,
+      5,
+      25,
+      0
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "43-2",
+    "traits": [
+      "低馬尾",
+      "凜嬌",
+      "呆毛"
+    ],
+    "relevant_ids": [
+      43
+    ],
+    "random_top5": [
+      1,
+      46,
+      25,
+      30,
+      40
+    ],
+    "trait_top5": [
+      43,
+      4,
+      3,
+      14,
+      18
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "40-2",
+    "traits": [
+      "旱鴨子",
+      "船長",
+      "傷疤"
+    ],
+    "relevant_ids": [
+      40
+    ],
+    "random_top5": [
+      26,
+      22,
+      8,
+      4,
+      13
+    ],
+    "trait_top5": [
+      40,
+      7,
+      12,
+      1,
+      36
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "27-0",
+    "traits": [
+      "吐槽",
+      "兄長",
+      "妹控"
+    ],
+    "relevant_ids": [
+      27
+    ],
+    "random_top5": [
+      38,
+      33,
+      6,
+      32,
+      9
+    ],
+    "trait_top5": [
+      27,
+      1,
+      8,
+      48,
+      6
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "3-3",
+    "traits": [
+      "抽煙",
+      "哥哥",
+      "復仇"
+    ],
+    "relevant_ids": [
+      3
+    ],
+    "random_top5": [
+      17,
+      6,
+      48,
+      26,
+      20
+    ],
+    "trait_top5": [
+      3,
+      9,
+      25,
+      12,
+      48
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "15-2",
+    "traits": [
+      "祈願繩",
+      "反差萌",
+      "溫柔"
+    ],
+    "relevant_ids": [
+      15
+    ],
+    "random_top5": [
+      13,
+      49,
+      0,
+      19,
+      29
+    ],
+    "trait_top5": [
+      15,
+      10,
+      1,
+      2,
+      3
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "3-0",
+    "traits": [
+      "普通人",
+      "留長髮",
+      "惡墮"
+    ],
+    "relevant_ids": [
+      3
+    ],
+    "random_top5": [
+      38,
+      30,
+      32,
+      20,
+      4
+    ],
+    "trait_top5": [
+      3,
+      2,
+      4,
+      44
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "32-2",
+    "traits": [
+      "毒舌",
+      "遮耳發",
+      "學生"
+    ],
+    "relevant_ids": [
+      32
+    ],
+    "random_top5": [
+      46,
+      44,
+      1,
+      13,
+      25
+    ],
+    "trait_top5": [
+      32,
+      47,
+      0,
+      14,
+      33
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "42-3",
+    "traits": [
+      "獨眼",
+      "傲嬌",
+      "三白眼"
+    ],
+    "relevant_ids": [
+      42
+    ],
+    "random_top5": [
+      11,
+      10,
+      2,
+      6,
+      37
+    ],
+    "trait_top5": [
+      42,
+      19,
+      7,
+      12,
+      6
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "46-1",
+    "traits": [
+      "食屍鬼",
+      "暗戀",
+      "狂氣"
+    ],
+    "relevant_ids": [
+      46
+    ],
+    "random_top5": [
+      29,
+      48,
+      30,
+      22,
+      9
+    ],
+    "trait_top5": [
+      46,
+      17
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "43-0",
+    "traits": [
+      "金髮碧眼",
+      "騎士",
+      "低馬尾"
+    ],
+    "relevant_ids": [
+      43
+    ],
+    "random_top5": [
+      47,
+      45,
+      33,
+      12,
+      26
+    ],
+    "trait_top5": [
+      43,
+      4,
+      5,
+      21,
+      22
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "5-1",
+    "traits": [
+      "笨蛋（偽）",
+      "矩形瞳孔",
+      "義肢"
+    ],
+    "relevant_ids": [
+      5
+    ],
+    "random_top5": [
+      28,
+      21,
+      4,
+      30,
+      6
+    ],
+    "trait_top5": [
+      5
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "21-0",
+    "traits": [
+      "變身",
+      "雙馬尾",
+      "花痴"
+    ],
+    "relevant_ids": [
+      21
+    ],
+    "random_top5": [
+      47,
+      14,
+      19,
+      16,
+      11
+    ],
+    "trait_top5": [
+      21,
+      22,
+      34,
+      39,
+      41
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "38-3",
+    "traits": [
+      "傲嬌",
+      "戀人未滿",
+      "醋缸"
+    ],
+    "relevant_ids": [
+      38
+    ],
+    "random_top5": [
+      33,
+      19,
+      28,
+      8,
+      20
+    ],
+    "trait_top5": [
+      38,
+      6,
+      13,
+      14,
+      19
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "32-0",
+    "traits": [
+      "連衣裙",
+      "齊劉海",
+      "魔法師"
+    ],
+    "relevant_ids": [
+      32
+    ],
+    "random_top5": [
+      4,
+      8,
+      12,
+      44,
+      25
+    ],
+    "trait_top5": [
+      32,
+      17,
+      23,
+      4,
+      34
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "25-0",
+    "traits": [
+      "組織領導人",
+      "倖存者",
+      "遮眼髮"
+    ],
+    "relevant_ids": [
+      25
+    ],
+    "random_top5": [
+      10,
+      29,
+      23,
+      4,
+      40
+    ],
+    "trait_top5": [
+      25,
+      33,
+      27,
+      34
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "40-3",
+    "traits": [
+      "海盜",
+      "兒子",
+      "傷疤"
+    ],
+    "relevant_ids": [
+      40
+    ],
+    "random_top5": [
+      39,
+      2,
+      23,
+      32,
+      44
+    ],
+    "trait_top5": [
+      40,
+      1,
+      36,
+      47
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "16-1",
+    "traits": [
+      "優等生",
+      "黑化",
+      "兄控"
+    ],
+    "relevant_ids": [
+      16
+    ],
+    "random_top5": [
+      14,
+      24,
+      10,
+      45,
+      15
+    ],
+    "trait_top5": [
+      16,
+      25,
+      30,
+      17,
+      33
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "0-2",
+    "traits": [
+      "最強",
+      "長身",
+      "美男子"
+    ],
+    "relevant_ids": [
+      0
+    ],
+    "random_top5": [
+      18,
+      47,
+      30,
+      25,
+      32
+    ],
+    "trait_top5": [
+      0,
+      3,
+      42
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "8-2",
+    "traits": [
+      "中二病",
+      "雙重身份其實有三重",
+      "腹黑"
+    ],
+    "relevant_ids": [
+      8
+    ],
+    "random_top5": [
+      46,
+      45,
+      2,
+      29,
+      37
+    ],
+    "trait_top5": [
+      8,
+      6,
+      11,
+      13,
+      45
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "47-2",
+    "traits": [
+      "冰美人",
+      "有胸的帥哥",
+      "圍巾"
+    ],
+    "relevant_ids": [
+      47
+    ],
+    "random_top5": [
+      35,
+      10,
+      3,
+      17,
+      24
+    ],
+    "trait_top5": [
+      47,
+      34,
+      13,
+      14
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "44-2",
+    "traits": [
+      "乳袋",
+      "盾牌",
+      "機娘"
+    ],
+    "relevant_ids": [
+      44
+    ],
+    "random_top5": [
+      28,
+      22,
+      20,
+      29,
+      7
+    ],
+    "trait_top5": [
+      44
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "31-3",
+    "traits": [
+      "天然呆",
+      "半馬尾",
+      "長直發"
+    ],
+    "relevant_ids": [
+      31
+    ],
+    "random_top5": [
+      1,
+      45,
+      41,
+      40,
+      9
+    ],
+    "trait_top5": [
+      31,
+      10,
+      15,
+      18,
+      21
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "21-2",
+    "traits": [
+      "蝴蝶結",
+      "隱藏巨乳",
+      "公主"
+    ],
+    "relevant_ids": [
+      21
+    ],
+    "random_top5": [
+      44,
+      28,
+      9,
+      25,
+      6
+    ],
+    "trait_top5": [
+      21,
+      30,
+      38,
+      10,
+      29
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "45-3",
+    "traits": [
+      "貝雷帽",
+      "治癒系",
+      "正宮"
+    ],
+    "relevant_ids": [
+      45
+    ],
+    "random_top5": [
+      19,
+      0,
+      42,
+      30,
+      3
+    ],
+    "trait_top5": [
+      45,
+      14,
+      37,
+      1,
+      10
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "49-0",
+    "traits": [
+      "斜劉海",
+      "隱藏巨乳",
+      "白色過膝襪"
+    ],
+    "relevant_ids": [
+      49
+    ],
+    "random_top5": [
+      20,
+      16,
+      41,
+      0,
+      13
+    ],
+    "trait_top5": [
+      49,
+      10,
+      21,
+      29,
+      33
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "38-0",
+    "traits": [
+      "毒舌",
+      "優等生",
+      "高中生"
+    ],
+    "relevant_ids": [
+      38
+    ],
+    "random_top5": [
+      19,
+      30,
+      7,
+      23,
+      47
+    ],
+    "trait_top5": [
+      38,
+      12,
+      14,
+      13,
+      15
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "34-3",
+    "traits": [
+      "裝弱",
+      "粗眉",
+      "圍巾"
+    ],
+    "relevant_ids": [
+      34
+    ],
+    "random_top5": [
+      48,
+      6,
+      36,
+      49,
+      17
+    ],
+    "trait_top5": [
+      34,
+      47
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "12-1",
+    "traits": [
+      "老好人",
+      "優等生",
+      "學蘭"
+    ],
+    "relevant_ids": [
+      12
+    ],
+    "random_top5": [
+      2,
+      0,
+      10,
+      36,
+      41
+    ],
+    "trait_top5": [
+      12,
+      39,
+      1,
+      36,
+      48
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "5-0",
+    "traits": [
+      "自帶BGM",
+      "口癖",
+      "義肢"
+    ],
+    "relevant_ids": [
+      5
+    ],
+    "random_top5": [
+      24,
+      37,
+      32,
+      2,
+      14
+    ],
+    "trait_top5": [
+      5,
+      19,
+      25
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "41-1",
+    "traits": [
+      "猴子",
+      "刺蝟頭",
+      "變身"
+    ],
+    "relevant_ids": [
+      41
+    ],
+    "random_top5": [
+      17,
+      31,
+      13,
+      6,
+      15
+    ],
+    "trait_top5": [
+      41,
+      0,
+      5,
+      21,
+      39
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "26-0",
+    "traits": [
+      "人夫",
+      "偶像",
+      "高中生"
+    ],
+    "relevant_ids": [
+      26
+    ],
+    "random_top5": [
+      0,
+      25,
+      49,
+      39,
+      36
+    ],
+    "trait_top5": [
+      26,
+      37,
+      5,
+      25,
+      12
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "22-0",
+    "traits": [
+      "雙馬尾",
+      "反差萌",
+      "幼馴染"
+    ],
+    "relevant_ids": [
+      22
+    ],
+    "random_top5": [
+      37,
+      27,
+      47,
+      46,
+      12
+    ],
+    "trait_top5": [
+      22,
+      10,
+      21,
+      34,
+      47
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "25-3",
+    "traits": [
+      "倖存者",
+      "人夫",
+      "裝逼"
+    ],
+    "relevant_ids": [
+      25
+    ],
+    "random_top5": [
+      1,
+      39,
+      25,
+      14,
+      23
+    ],
+    "trait_top5": [
+      25,
+      48,
+      5,
+      26,
+      33
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "1-2",
+    "traits": [
+      "日本刀",
+      "剪髮",
+      "吐槽"
+    ],
+    "relevant_ids": [
+      1
+    ],
+    "random_top5": [
+      36,
+      18,
+      0,
+      2,
+      39
+    ],
+    "trait_top5": [
+      1,
+      2,
+      3,
+      17,
+      25
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "22-1",
+    "traits": [
+      "黑色過膝襪",
+      "絕對領域",
+      "幼馴染"
+    ],
+    "relevant_ids": [
+      22
+    ],
+    "random_top5": [
+      9,
+      39,
+      49,
+      15,
+      6
+    ],
+    "trait_top5": [
+      22,
+      14,
+      10,
+      47,
+      17
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "28-0",
+    "traits": [
+      "黑長直",
+      "OL",
+      "溫柔"
+    ],
+    "relevant_ids": [
+      28
+    ],
+    "random_top5": [
+      14,
+      22,
+      24,
+      31,
+      6
+    ],
+    "trait_top5": [
+      28,
+      10,
+      13,
+      48,
+      14
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "2-3",
+    "traits": [
+      "偵探",
+      "波波頭",
+      "單純"
+    ],
+    "relevant_ids": [
+      2
+    ],
+    "random_top5": [
+      13,
+      39,
+      8,
+      45,
+      1
+    ],
+    "trait_top5": [
+      2,
+      6,
+      9
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "29-1",
+    "traits": [
+      "酒品差",
+      "狗鼻子",
+      "京都臉"
+    ],
+    "relevant_ids": [
+      29
+    ],
+    "random_top5": [
+      26,
+      48,
+      28,
+      41,
+      40
+    ],
+    "trait_top5": [
+      29,
+      1,
+      7,
+      28
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "40-1",
+    "traits": [
+      "旱鴨子",
+      "兒子",
+      "弟弟"
+    ],
+    "relevant_ids": [
+      40
+    ],
+    "random_top5": [
+      17,
+      35,
+      6,
+      34,
+      28
+    ],
+    "trait_top5": [
+      40,
+      25,
+      7,
+      12
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "15-3",
+    "traits": [
+      "溫柔",
+      "籃球",
+      "運動員"
+    ],
+    "relevant_ids": [
+      15
+    ],
+    "random_top5": [
+      21,
+      30,
+      35,
+      42,
+      15
+    ],
+    "trait_top5": [
+      15,
+      1,
+      2,
+      3,
+      10
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "30-1",
+    "traits": [
+      "插畫家",
+      "家裏蹲",
+      "長鬢角"
+    ],
+    "relevant_ids": [
+      30
+    ],
+    "random_top5": [
+      33,
+      35,
+      48,
+      38,
+      49
+    ],
+    "trait_top5": [
+      30,
+      19,
+      13,
+      28,
+      32
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "28-2",
+    "traits": [
+      "殘念系",
+      "實姐",
+      "高跟鞋"
+    ],
+    "relevant_ids": [
+      28
+    ],
+    "random_top5": [
+      20,
+      3,
+      9,
+      44,
+      30
+    ],
+    "trait_top5": [
+      28,
+      5,
+      23
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "30-0",
+    "traits": [
+      "長鬢角",
+      "蝴蝶結",
+      "淑女"
+    ],
+    "relevant_ids": [
+      30
+    ],
+    "random_top5": [
+      16,
+      15,
+      33,
+      10,
+      42
+    ],
+    "trait_top5": [
+      30,
+      21,
+      38,
+      13,
+      28
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "28-3",
+    "traits": [
+      "髮箍",
+      "怪力",
+      "盤髮"
+    ],
+    "relevant_ids": [
+      28
+    ],
+    "random_top5": [
+      20,
+      13,
+      18,
+      14,
+      33
+    ],
+    "trait_top5": [
+      28,
+      17,
+      43
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "7-1",
+    "traits": [
+      "GHS",
+      "貧窮",
+      "天然卷"
+    ],
+    "relevant_ids": [
+      7
+    ],
+    "random_top5": [
+      4,
+      27,
+      14,
+      7,
+      2
+    ],
+    "trait_top5": [
+      7,
+      12,
+      19,
+      39
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "21-1",
+    "traits": [
+      "金髮碧眼",
+      "隱藏巨乳",
+      "吃貨"
+    ],
+    "relevant_ids": [
+      21
+    ],
+    "random_top5": [
+      5,
+      17,
+      11,
+      13,
+      21
+    ],
+    "trait_top5": [
+      21,
+      43,
+      10,
+      29,
+      49
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "11-2",
+    "traits": [
+      "花魁言葉",
+      "尾巴",
+      "人外"
+    ],
+    "relevant_ids": [
+      11
+    ],
+    "random_top5": [
+      4,
+      40,
+      44,
+      7,
+      45
+    ],
+    "trait_top5": [
+      11
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "2-1",
+    "traits": [
+      "美少女",
+      "星星眼",
+      "認真"
+    ],
+    "relevant_ids": [
+      2
+    ],
+    "random_top5": [
+      19,
+      36,
+      48,
+      7,
+      0
+    ],
+    "trait_top5": [
+      2,
+      10,
+      14,
+      37,
+      38
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "23-1",
+    "traits": [
+      "笨蛋",
+      "冒失",
+      "麻花辮"
+    ],
+    "relevant_ids": [
+      23
+    ],
+    "random_top5": [
+      33,
+      24,
+      35,
+      22,
+      9
+    ],
+    "trait_top5": [
+      23,
+      28
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "22-3",
+    "traits": [
+      "反差萌",
+      "玩家",
+      "絲帶"
+    ],
+    "relevant_ids": [
+      22
+    ],
+    "random_top5": [
+      39,
+      4,
+      6,
+      22,
+      8
+    ],
+    "trait_top5": [
+      22,
+      14,
+      48,
+      10,
+      12
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "41-2",
+    "traits": [
+      "戰鬥狂",
+      "變身",
+      "另類髮型"
+    ],
+    "relevant_ids": [
+      41
+    ],
+    "random_top5": [
+      27,
+      4,
+      28,
+      11,
+      40
+    ],
+    "trait_top5": [
+      41,
+      21,
+      39
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "31-2",
+    "traits": [
+      "天使",
+      "天然呆",
+      "半馬尾"
+    ],
+    "relevant_ids": [
+      31
+    ],
+    "random_top5": [
+      49,
+      9,
+      20,
+      32,
+      23
+    ],
+    "trait_top5": [
+      31,
+      10,
+      15,
+      18,
+      21
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "18-3",
+    "traits": [
+      "萌物",
+      "同居",
+      "睡魔"
+    ],
+    "relevant_ids": [
+      18
+    ],
+    "random_top5": [
+      33,
+      49,
+      9,
+      31,
+      36
+    ],
+    "trait_top5": [
+      18
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "1-0",
+    "traits": [
+      "暖男",
+      "小天使",
+      "吐槽"
+    ],
+    "relevant_ids": [
+      1
+    ],
+    "random_top5": [
+      8,
+      13,
+      45,
+      4,
+      32
+    ],
+    "trait_top5": [
+      1,
+      20,
+      6,
+      7,
+      19
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "42-0",
+    "traits": [
+      "毒舌",
+      "高冷",
+      "刀劍"
+    ],
+    "relevant_ids": [
+      42
+    ],
+    "random_top5": [
+      10,
+      14,
+      12,
+      21,
+      45
+    ],
+    "trait_top5": [
+      42,
+      43,
+      47,
+      0,
+      14
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "3-1",
+    "traits": [
+      "美男子",
+      "惡墮",
+      "工具人"
+    ],
+    "relevant_ids": [
+      3
+    ],
+    "random_top5": [
+      12,
+      4,
+      42,
+      29,
+      32
+    ],
+    "trait_top5": [
+      3,
+      0
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "7-0",
+    "traits": [
+      "雙重身份",
+      "失憶",
+      "吐槽"
+    ],
+    "relevant_ids": [
+      7
+    ],
+    "random_top5": [
+      31,
+      7,
+      14,
+      32,
+      37
+    ],
+    "trait_top5": [
+      7,
+      6,
+      28,
+      33,
+      46
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "4-0",
+    "traits": [
+      "轉世者",
+      "後宮",
+      "人生贏家"
+    ],
+    "relevant_ids": [
+      4
+    ],
+    "random_top5": [
+      44,
+      40,
+      13,
+      43,
+      6
+    ],
+    "trait_top5": [
+      4,
+      5
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "10-3",
+    "traits": [
+      "怕打雷",
+      "天然呆",
+      "反差萌"
+    ],
+    "relevant_ids": [
+      10
+    ],
+    "random_top5": [
+      43,
+      11,
+      3,
+      36,
+      42
+    ],
+    "trait_top5": [
+      10,
+      15,
+      31,
+      35,
+      18
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "47-1",
+    "traits": [
+      "過膝靴",
+      "冰美人",
+      "刀劍"
+    ],
+    "relevant_ids": [
+      47
+    ],
+    "random_top5": [
+      49,
+      31,
+      43,
+      37,
+      10
+    ],
+    "trait_top5": [
+      47,
+      28,
+      13,
+      14,
+      42
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "17-3",
+    "traits": [
+      "齊劉海",
+      "反差萌",
+      "髮箍"
+    ],
+    "relevant_ids": [
+      17
+    ],
+    "random_top5": [
+      31,
+      29,
+      46,
+      26,
+      30
+    ],
+    "trait_top5": [
+      17,
+      33,
+      28,
+      23,
+      29
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "34-1",
+    "traits": [
+      "貧乳",
+      "粗眉",
+      "收集癖"
+    ],
+    "relevant_ids": [
+      34
+    ],
+    "random_top5": [
+      17,
+      7,
+      22,
+      44,
+      39
+    ],
+    "trait_top5": [
+      34,
+      13,
+      14,
+      18,
+      22
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "30-2",
+    "traits": [
+      "蝴蝶結",
+      "長鬢角",
+      "抖S/抖M"
+    ],
+    "relevant_ids": [
+      30
+    ],
+    "random_top5": [
+      28,
+      31,
+      39,
+      14,
+      16
+    ],
+    "trait_top5": [
+      30,
+      21,
+      38,
+      13,
+      28
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "24-3",
+    "traits": [
+      "初中生",
+      "怕鬼",
+      "魔法少女"
+    ],
+    "relevant_ids": [
+      24
+    ],
+    "random_top5": [
+      39,
+      32,
+      7,
+      16,
+      38
+    ],
+    "trait_top5": [
+      24,
+      10,
+      21
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "7-3",
+    "traits": [
+      "木刀",
+      "旱鴨子",
+      "主要萌點：組織領導人"
+    ],
+    "relevant_ids": [
+      7
+    ],
+    "random_top5": [
+      5,
+      13,
+      34,
+      44,
+      27
+    ],
+    "trait_top5": [
+      7,
+      12,
+      40
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "46-2",
+    "traits": [
+      "失憶",
+      "狂氣",
+      "變髮色"
+    ],
+    "relevant_ids": [
+      46
+    ],
+    "random_top5": [
+      21,
+      3,
+      31,
+      12,
+      26
+    ],
+    "trait_top5": [
+      46,
+      41,
+      7,
+      33
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "33-1",
+    "traits": [
+      "敬語",
+      "瑪麗珍鞋",
+      "雙子"
+    ],
+    "relevant_ids": [
+      33
+    ],
+    "random_top5": [
+      27,
+      8,
+      47,
+      4,
+      12
+    ],
+    "trait_top5": [
+      33,
+      35,
+      29,
+      32
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "19-2",
+    "traits": [
+      "自殘",
+      "家裏蹲",
+      "吊眼"
+    ],
+    "relevant_ids": [
+      19
+    ],
+    "random_top5": [
+      46,
+      15,
+      27,
+      23,
+      6
+    ],
+    "trait_top5": [
+      19,
+      30,
+      41
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "9-3",
+    "traits": [
+      "偵探",
+      "前臥底",
+      "悶騷"
+    ],
+    "relevant_ids": [
+      9
+    ],
+    "random_top5": [
+      2,
+      41,
+      35,
+      28,
+      24
+    ],
+    "trait_top5": [
+      9,
+      2,
+      6
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "0-0",
+    "traits": [
+      "眼罩",
+      "刺蝟頭",
+      "美男子"
+    ],
+    "relevant_ids": [
+      0
+    ],
+    "random_top5": [
+      42,
+      48,
+      4,
+      34,
+      5
+    ],
+    "trait_top5": [
+      0,
+      3,
+      5,
+      41,
+      44
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "26-3",
+    "traits": [
+      "高中生",
+      "人夫",
+      "偶像"
+    ],
+    "relevant_ids": [
+      26
+    ],
+    "random_top5": [
+      4,
+      24,
+      9,
+      2,
+      10
+    ],
+    "trait_top5": [
+      26,
+      37,
+      5,
+      25,
+      12
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "49-1",
+    "traits": [
+      "媽媽",
+      "長直",
+      "有錢"
+    ],
+    "relevant_ids": [
+      49
+    ],
+    "random_top5": [
+      43,
+      27,
+      17,
+      11,
+      32
+    ],
+    "trait_top5": [
+      49,
+      2,
+      32,
+      13,
+      21
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "39-3",
+    "traits": [
+      "電鋸",
+      "打手槍",
+      "學蘭"
+    ],
+    "relevant_ids": [
+      39
+    ],
+    "random_top5": [
+      35,
+      0,
+      32,
+      44,
+      30
+    ],
+    "trait_top5": [
+      39,
+      12
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "13-2",
+    "traits": [
+      "中分",
+      "學姐",
+      "大小姐"
+    ],
+    "relevant_ids": [
+      13
+    ],
+    "random_top5": [
+      39,
+      35,
+      38,
+      9,
+      33
+    ],
+    "trait_top5": [
+      13,
+      4,
+      2,
+      15,
+      16
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "15-0",
+    "traits": [
+      "姐弟戀",
+      "運動員",
+      "前輩"
+    ],
+    "relevant_ids": [
+      15
+    ],
+    "random_top5": [
+      4,
+      45,
+      2,
+      30,
+      7
+    ],
+    "trait_top5": [
+      15,
+      3
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "39-1",
+    "traits": [
+      "裝傻",
+      "料理達人",
+      "Sub"
+    ],
+    "relevant_ids": [
+      39
+    ],
+    "random_top5": [
+      16,
+      49,
+      33,
+      27,
+      15
+    ],
+    "trait_top5": [
+      39,
+      3,
+      10,
+      12,
+      24
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "42-1",
+    "traits": [
+      "三白眼",
+      "上司",
+      "鬥神"
+    ],
+    "relevant_ids": [
+      42
+    ],
+    "random_top5": [
+      40,
+      32,
+      46,
+      38,
+      4
+    ],
+    "trait_top5": [
+      42,
+      7,
+      12,
+      19
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "11-0",
+    "traits": [
+      "腹黑",
+      "狼娘",
+      "古式語法"
+    ],
+    "relevant_ids": [
+      11
+    ],
+    "random_top5": [
+      28,
+      43,
+      38,
+      31,
+      0
+    ],
+    "trait_top5": [
+      11,
+      6,
+      8,
+      13,
+      45
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "7-2",
+    "traits": [
+      "天然卷",
+      "音痴",
+      "貧窮"
+    ],
+    "relevant_ids": [
+      7
+    ],
+    "random_top5": [
+      9,
+      16,
+      38,
+      7,
+      20
+    ],
+    "trait_top5": [
+      7,
+      12,
+      19,
+      39
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "4-3",
+    "traits": [
+      "美少年",
+      "低馬尾",
+      "金髮碧眼"
+    ],
+    "relevant_ids": [
+      4
+    ],
+    "random_top5": [
+      1,
+      0,
+      37,
+      36,
+      46
+    ],
+    "trait_top5": [
+      4,
+      43,
+      20,
+      25,
+      48
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "43-1",
+    "traits": [
+      "貧乳",
+      "妹妹",
+      "西裝（Zero）"
+    ],
+    "relevant_ids": [
+      43
+    ],
+    "random_top5": [
+      41,
+      7,
+      34,
+      0,
+      21
+    ],
+    "trait_top5": [
+      43,
+      13,
+      14,
+      24,
+      16
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "45-2",
+    "traits": [
+      "腹黑",
+      "吐槽",
+      "正宮"
+    ],
+    "relevant_ids": [
+      45
+    ],
+    "random_top5": [
+      48,
+      19,
+      9,
+      2,
+      4
+    ],
+    "trait_top5": [
+      45,
+      6,
+      14,
+      8,
+      11
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "8-0",
+    "traits": [
+      "影帝",
+      "腹黑",
+      "皇帝"
+    ],
+    "relevant_ids": [
+      8
+    ],
+    "random_top5": [
+      26,
+      24,
+      10,
+      22,
+      32
+    ],
+    "trait_top5": [
+      8,
+      6,
+      11,
+      13,
+      45
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "29-3",
+    "traits": [
+      "白色及膝襪",
+      "農家女",
+      "我很好奇！"
+    ],
+    "relevant_ids": [
+      29
+    ],
+    "random_top5": [
+      7,
+      28,
+      18,
+      48,
+      25
+    ],
+    "trait_top5": [
+      29,
+      37
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "18-0",
+    "traits": [
+      "藝術家",
+      "萌物",
+      "外國人"
+    ],
+    "relevant_ids": [
+      18
+    ],
+    "random_top5": [
+      17,
+      36,
+      48,
+      25,
+      6
+    ],
+    "trait_top5": [
+      18
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "18-2",
+    "traits": [
+      "天才",
+      "天然呆",
+      "白毛"
+    ],
+    "relevant_ids": [
+      18
+    ],
+    "random_top5": [
+      40,
+      14,
+      8,
+      36,
+      15
+    ],
+    "trait_top5": [
+      18,
+      0,
+      2,
+      6,
+      13
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "4-2",
+    "traits": [
+      "呆毛",
+      "金髮碧眼",
+      "轉世者"
+    ],
+    "relevant_ids": [
+      4
+    ],
+    "random_top5": [
+      38,
+      40,
+      30,
+      18,
+      11
+    ],
+    "trait_top5": [
+      4,
+      5,
+      43,
+      21,
+      22
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "8-3",
+    "traits": [
+      "學生會副會長",
+      "背鍋",
+      "反社會人格"
+    ],
+    "relevant_ids": [
+      8
+    ],
+    "random_top5": [
+      17,
+      28,
+      32,
+      11,
+      34
+    ],
+    "trait_top5": [
+      8,
+      13,
+      39
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "0-1",
+    "traits": [
+      "刺蝟頭",
+      "神性",
+      "美男子"
+    ],
+    "relevant_ids": [
+      0
+    ],
+    "random_top5": [
+      22,
+      23,
+      14,
+      9,
+      48
+    ],
+    "trait_top5": [
+      0,
+      3,
+      5,
+      41
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "20-1",
+    "traits": [
+      "美少年",
+      "日本普通高中生",
+      "儲備糧"
+    ],
+    "relevant_ids": [
+      20
+    ],
+    "random_top5": [
+      8,
+      22,
+      31,
+      33,
+      40
+    ],
+    "trait_top5": [
+      20,
+      19,
+      4,
+      25,
+      48
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "11-1",
+    "traits": [
+      "獸耳",
+      "咱",
+      "腹黑"
+    ],
+    "relevant_ids": [
+      11
+    ],
+    "random_top5": [
+      4,
+      49,
+      36,
+      29,
+      37
+    ],
+    "trait_top5": [
+      11,
+      6,
+      8,
+      13,
+      45
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "8-1",
+    "traits": [
+      "反社會人格",
+      "背鍋",
+      "妹控"
+    ],
+    "relevant_ids": [
+      8
+    ],
+    "random_top5": [
+      30,
+      1,
+      47,
+      42,
+      20
+    ],
+    "trait_top5": [
+      8,
+      39,
+      1,
+      27,
+      48
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "41-3",
+    "traits": [
+      "另類髮型",
+      "肌肉男",
+      "猴子"
+    ],
+    "relevant_ids": [
+      41
+    ],
+    "random_top5": [
+      47,
+      37,
+      4,
+      22,
+      45
+    ],
+    "trait_top5": [
+      41
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "48-1",
+    "traits": [
+      "爸爸",
+      "溫柔",
+      "妹控"
+    ],
+    "relevant_ids": [
+      48
+    ],
+    "random_top5": [
+      11,
+      16,
+      42,
+      22,
+      33
+    ],
+    "trait_top5": [
+      48,
+      46,
+      1,
+      5,
+      8
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "14-2",
+    "traits": [
+      "黑色過膝襪",
+      "妹妹",
+      "路痴"
+    ],
+    "relevant_ids": [
+      14
+    ],
+    "random_top5": [
+      43,
+      39,
+      32,
+      14,
+      4
+    ],
+    "trait_top5": [
+      14,
+      10,
+      22,
+      13,
+      16
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "23-2",
+    "traits": [
+      "蠢萌",
+      "戰吼",
+      "陰角"
+    ],
+    "relevant_ids": [
+      23
+    ],
+    "random_top5": [
+      23,
+      0,
+      42,
+      33,
+      31
+    ],
+    "trait_top5": [
+      23,
+      41
+    ],
+    "random_recall": 1.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "46-0",
+    "traits": [
+      "異色瞳",
+      "爸爸",
+      "面具"
+    ],
+    "relevant_ids": [
+      46
+    ],
+    "random_top5": [
+      16,
+      6,
+      37,
+      25,
+      42
+    ],
+    "trait_top5": [
+      46,
+      25,
+      5,
+      48
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "35-0",
+    "traits": [
+      "小錐帽髮飾",
+      "助攻",
+      "孤兒"
+    ],
+    "relevant_ids": [
+      35
+    ],
+    "random_top5": [
+      12,
+      30,
+      16,
+      3,
+      48
+    ],
+    "trait_top5": [
+      35,
+      5,
+      7,
+      32,
+      39
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "33-2",
+    "traits": [
+      "流星錘",
+      "沉睡",
+      "髮卡"
+    ],
+    "relevant_ids": [
+      33
+    ],
+    "random_top5": [
+      39,
+      22,
+      44,
+      38,
+      37
+    ],
+    "trait_top5": [
+      33
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "44-1",
+    "traits": [
+      "中提琴",
+      "反差萌",
+      "盾牌"
+    ],
+    "relevant_ids": [
+      44
+    ],
+    "random_top5": [
+      18,
+      17,
+      33,
+      19,
+      39
+    ],
+    "trait_top5": [
+      44,
+      10,
+      12,
+      14,
+      15
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "13-0",
+    "traits": [
+      "貧乳",
+      "天才",
+      "學姐"
+    ],
+    "relevant_ids": [
+      13
+    ],
+    "random_top5": [
+      9,
+      23,
+      32,
+      34,
+      43
+    ],
+    "trait_top5": [
+      13,
+      2,
+      37,
+      18,
+      15
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "29-2",
+    "traits": [
+      "隱藏巨乳",
+      "白色及膝襪",
+      "大和撫子"
+    ],
+    "relevant_ids": [
+      29
+    ],
+    "random_top5": [
+      40,
+      24,
+      45,
+      22,
+      13
+    ],
+    "trait_top5": [
+      29,
+      49,
+      37,
+      33,
+      10
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  },
+  {
+    "case_id": "34-2",
+    "traits": [
+      "賴床",
+      "魔法師",
+      "魔法杖"
+    ],
+    "relevant_ids": [
+      34
+    ],
+    "random_top5": [
+      46,
+      14,
+      18,
+      32,
+      24
+    ],
+    "trait_top5": [
+      34,
+      32,
+      4,
+      21
+    ],
+    "random_recall": 0.0,
+    "trait_recall": 1.0
+  }
+]
